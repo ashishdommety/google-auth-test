@@ -19,7 +19,10 @@ $(document).ready(function() {
       var token = result.credential.accessToken;
       // The signed-in user info.
       var user = result.user;
-      console.log(user);
+      console.log(user.displayName);
+      console.log(user.email);
+      console.log(user.photoURL);
+      console.log(user.uid);
       // ...
     }).catch(function(error) {
       // Handle Errors here.
