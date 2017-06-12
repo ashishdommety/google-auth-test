@@ -10,3 +10,14 @@
   border-radius: 20px;
   color:#255d70;
 }
+
+#pic{
+  width:100px;
+  height:100px;
+}
+#sign-out{
+  float:right;
+}
+#details{
+  text-align: center;
+}
