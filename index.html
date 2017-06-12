@@ -5,15 +5,31 @@
   <meta charset="utf-8">
   <title>Authentication test</title>
 </head>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
 <body>
-  <input id="googleID" type="text" placeholder="google id">
-  <input id="pass" type="text" placeholder="password">
-  <button id="sign-in">Sign-in</button>
-  <button id="sign-out">Sign-out</button>
-  <button id="sign-up">Sign-up</button>
+  <div class="container">
+    <div class="row">
+      <div id="login">
+        <h1>What's APPennin'?</h1>
+        <button id="sign-in" class="btn btn-primary">Sign-in</button>
+      </div>
+    </div>
+    <div class="row" id="content">
+      <div id="welcome">
+        <div id="header">
+            <button id="sign-out" class="btn btn-danger">Sign-out</button>
+        </div>
+      </div>
+      <div id="details">
+        <h1 id="welcomeText"></h1>
+        <img id="pic" src="" alt="">
+      </div>
+    </div>
 
 
+
+  </div>
 
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase-app.js"></script>
